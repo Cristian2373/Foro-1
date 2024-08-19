@@ -93,4 +93,11 @@ public class Foro1 {
     }
 }
 
+       "mostrar alumno"(self,carnet):
+ Alumno = self.buscar _ Alumno(carnet)
+  if Alumno:
+else:
+print (¨Alumno no encontrado, no se puede mostrar.¨)
+
+
 
